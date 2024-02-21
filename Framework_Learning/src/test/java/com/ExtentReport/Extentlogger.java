@@ -3,8 +3,6 @@ package com.ExtentReport;
 import java.util.Arrays;
 import java.util.List;
 
-import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
@@ -16,10 +14,10 @@ import com.tests.BaseClass;
 
 public class Extentlogger extends BaseClass {
 
-	public static Logger log =Logger.getLogger(Extentlogger.class);
-	static {
-		PropertyConfigurator.configure("log4j.properties");
-	}
+//	public static Logger log =Logger.getLogger(Extentlogger.class);
+//	static {
+//		PropertyConfigurator.configure("log4j.properties");
+//	}
 	/**
 	 * take a screenshot for base64
 	 * @return string
@@ -33,7 +31,7 @@ public class Extentlogger extends BaseClass {
 	 */
 	private static void pass(String message) {
 		ExtentManager.getExtentTest().pass(message);
-		log.info(message);
+//		log.info(message);
 	}
 
 
@@ -44,7 +42,7 @@ public class Extentlogger extends BaseClass {
 	private static void fail(String message) {
 
 		ExtentManager.getExtentTest().fail(message);
-		log.error(message);
+//		log.error(message);
 	}
 	/**
 	 * Skipped log with only message
@@ -52,7 +50,7 @@ public class Extentlogger extends BaseClass {
 	 */
 	private static void skip(String message) {
 		ExtentManager.getExtentTest().skip(message);
-		log.info(message);
+//		log.info(message);
 	}
 	/**
 	 * information log with only messsage
@@ -60,7 +58,7 @@ public class Extentlogger extends BaseClass {
 	 */
 	public static void info(String message) {
 		ExtentManager.getExtentTest().info(message);
-		log.info(message);
+//		log.info(message);
 	}
 	/**
 	 * Passed log message along with screenshot 
@@ -69,7 +67,7 @@ public class Extentlogger extends BaseClass {
 	 */
 	public static void pass(String message,boolean needscreenshot) {
 		if(prop.getProperty("passedstepsscreenshot").equalsIgnoreCase("yes")&& needscreenshot) {
-			log.info(message);
+//			log.info(message);
 			ExtentManager.getExtentTest().pass(message.concat(" is passed"),
 					MediaEntityBuilder.createScreenCaptureFromBase64String(Extentlogger.Base64image()).build());
 		}else {
@@ -83,7 +81,7 @@ public class Extentlogger extends BaseClass {
 	 */
 	public static void fail(String message,boolean needscreenshot) {
 		if(prop.getProperty("failedstepsscreenshot").equalsIgnoreCase("yes")&& needscreenshot) {
-			log.error(message);
+//			log.error(message);
 			ExtentManager.getExtentTest().fail(message.concat(" is failed"),
 					MediaEntityBuilder.createScreenCaptureFromBase64String(Extentlogger.Base64image()).build());
 		}else {
@@ -97,7 +95,7 @@ public class Extentlogger extends BaseClass {
 	 */
 	public static void skip(String message,boolean needscreenshot) {
 		if(prop.getProperty("skippedstepsscreenshot").equalsIgnoreCase("yes")&& needscreenshot) {
-			log.info(message);
+//			log.info(message);
 			ExtentManager.getExtentTest().skip(message.concat(" is Skipped"),
 					MediaEntityBuilder.createScreenCaptureFromBase64String(Extentlogger.Base64image()).build());
 		}else {

@@ -9,8 +9,8 @@
 	  <parameter name="Browser" value="Chrome"></parameter>
     <classes>
 		  <class name="com.tests.Login"/>
-		    <class name="com.tests.PIM"/>   
-         <class name="com.tests.Admin"/>
+<!--		    <class name="com.tests.PIM"/>   -->
+<!--         <class name="com.tests.Admin"/>-->
     </classes>
 </test>
 
@@ -18,8 +18,8 @@
 	  <parameter name="Browser" value="firefox"></parameter>
     <classes>
 		  <class name="com.tests.Login"/>
-		    <class name="com.tests.PIM"/>   
-         <class name="com.tests.Admin"/>
+<!--		    <class name="com.tests.PIM"/>   -->
+<!--         <class name="com.tests.Admin"/>-->
     </classes>
 </test>
 

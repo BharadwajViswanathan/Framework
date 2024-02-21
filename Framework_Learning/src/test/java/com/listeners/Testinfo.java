@@ -15,20 +15,20 @@ public class Testinfo extends BaseClass implements ITestListener,ISuiteListener{
 	public void onStart(ISuite suite) {
 		
 		ExtentReport.invokereport();
-		Extentlogger.log.info("On Start program");
+//		Extentlogger.log.info("On Start program");
 	}
 	
 	@Override
 	public void onFinish(ISuite suite) {
 		ExtentReport.flushreport();
-		Extentlogger.log.info("On Finish program");
+//		Extentlogger.log.info("On Finish program");
 	}
 
 
 	@Override
 	public void onTestStart(ITestResult result) {
 		ExtentReport.createTest(result.getMethod().getMethodName());
-		Extentlogger.log.info(result.getMethod().getMethodName()+"->This method execution is started");
+//		Extentlogger.log.info(result.getMethod().getMethodName()+"->This method execution is started");
 	}
 
 	@Override
