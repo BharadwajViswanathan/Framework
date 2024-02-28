@@ -3,7 +3,7 @@
 <suite name="Suite">
 	<listeners>
 		<listener class-name="com.listeners.Testinfo"></listener>
-		<listener class-name="com.listeners.AnnotationListerners"></listener>
+<!--		<listener class-name="com.listeners.AnnotationListerners"></listener>-->
 	</listeners>
   <test  name="Run on Chrome" >
 	  <parameter name="Browser" value="Chrome"></parameter>

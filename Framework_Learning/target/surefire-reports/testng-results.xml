@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-28T14:12:13 IST" name="Suite" finished-at="2024-02-28T14:12:55 IST" duration-ms="41776">
+    <groups>
+    </groups>
+    <test started-at="2024-02-28T14:12:13 IST" name="Run on Chrome" finished-at="2024-02-28T14:12:31 IST" duration-ms="18027">
+      <class name="com.tests.Login">
+        <test-method is-config="true" signature="LaunchBrowser(java.lang.String)[pri:0, instance:com.tests.Login@31304f14]" started-at="2024-02-28T14:12:13 IST" name="LaunchBrowser" finished-at="2024-02-28T14:12:19 IST" duration-ms="6003" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="verifyurlTC001()[pri:1, instance:com.tests.Login@31304f14]" started-at="2024-02-28T14:12:19 IST" name="verifyurlTC001" finished-at="2024-02-28T14:12:24 IST" duration-ms="4750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyurlTC001 -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.tests.Login@31304f14]" started-at="2024-02-28T14:12:24 IST" name="CloseBrowser" finished-at="2024-02-28T14:12:24 IST" duration-ms="313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser(java.lang.String)[pri:0, instance:com.tests.Login@31304f14]" started-at="2024-02-28T14:12:24 IST" name="LaunchBrowser" finished-at="2024-02-28T14:12:29 IST" duration-ms="4244" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="VerifytheerrormessageonloginpageTC002()[pri:2, instance:com.tests.Login@31304f14]" started-at="2024-02-28T14:12:29 IST" name="VerifytheerrormessageonloginpageTC002" finished-at="2024-02-28T14:12:31 IST" duration-ms="2129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifytheerrormessageonloginpageTC002 -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.tests.Login@31304f14]" started-at="2024-02-28T14:12:31 IST" name="CloseBrowser" finished-at="2024-02-28T14:12:31 IST" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com.tests.Login -->
+    </test> <!-- Run on Chrome -->
+    <test started-at="2024-02-28T14:12:31 IST" name="Run on firefox" finished-at="2024-02-28T14:12:55 IST" duration-ms="23706">
+      <class name="com.tests.Login">
+        <test-method is-config="true" signature="BeforeLaunchingbrowser()[pri:0, instance:com.tests.Login@7c7a06ec]" started-at="2024-02-28T14:12:13 IST" name="BeforeLaunchingbrowser" finished-at="2024-02-28T14:12:13 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeLaunchingbrowser -->
+        <test-method is-config="true" signature="LaunchBrowser(java.lang.String)[pri:0, instance:com.tests.Login@7c7a06ec]" started-at="2024-02-28T14:12:31 IST" name="LaunchBrowser" finished-at="2024-02-28T14:12:39 IST" duration-ms="8249" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="verifyurlTC001()[pri:1, instance:com.tests.Login@7c7a06ec]" started-at="2024-02-28T14:12:39 IST" name="verifyurlTC001" finished-at="2024-02-28T14:12:44 IST" duration-ms="4283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyurlTC001 -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.tests.Login@7c7a06ec]" started-at="2024-02-28T14:12:44 IST" name="CloseBrowser" finished-at="2024-02-28T14:12:45 IST" duration-ms="1241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser(java.lang.String)[pri:0, instance:com.tests.Login@7c7a06ec]" started-at="2024-02-28T14:12:45 IST" name="LaunchBrowser" finished-at="2024-02-28T14:12:51 IST" duration-ms="6410" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="VerifytheerrormessageonloginpageTC002()[pri:2, instance:com.tests.Login@7c7a06ec]" started-at="2024-02-28T14:12:51 IST" name="VerifytheerrormessageonloginpageTC002" finished-at="2024-02-28T14:12:53 IST" duration-ms="2040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifytheerrormessageonloginpageTC002 -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.tests.Login@7c7a06ec]" started-at="2024-02-28T14:12:54 IST" name="CloseBrowser" finished-at="2024-02-28T14:12:55 IST" duration-ms="1332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com.tests.Login -->
+    </test> <!-- Run on firefox -->
+  </suite> <!-- Suite -->
+</testng-results>
