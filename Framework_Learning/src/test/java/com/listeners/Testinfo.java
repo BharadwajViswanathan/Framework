@@ -33,7 +33,7 @@ public class Testinfo extends BaseClass implements ITestListener,ISuiteListener{
 
 	@Override
 	public void onTestFailure(ITestResult result) {
-		Extentlogger.fail(result.getMethod().getMethodName(), false);
+		Extentlogger.fail(result.getMethod().getMethodName(), true);
 		Extentlogger.fail(result.getThrowable().toString(), false);
 	}
 	@Override

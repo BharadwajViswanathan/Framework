@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.tests.Admin">
+      <class name="com.tests.coarts">
         <methods>
+          <include name="corts"/>
           <include name="CloseBrowser"/>
           <include name="LaunchBrowser"/>
           <include name="BeforeLaunchingbrowser"/>
-          <include name="AddAdminuser"/>
         </methods>
-      </class> <!-- com.tests.Admin -->
+      </class> <!-- com.tests.coarts -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

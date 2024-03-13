@@ -6,6 +6,7 @@ import java.util.Properties;
 import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
@@ -30,7 +31,7 @@ public class Browser {
 	static String BrowserName;
 	static String BrowserVersion;
 	public static Properties prop;
-	
+
 
 	@BeforeSuite
 	public static void BeforeLaunchingbrowser() throws IOException {
@@ -62,14 +63,19 @@ public class Browser {
 			capabilities=((RemoteWebDriver)driver).getCapabilities();
 			BrowserName = capabilities.getBrowserName();
 			BrowserVersion = capabilities.getBrowserVersion();
+		}else if(Browser.equalsIgnoreCase("headless")) {
+			ChromeOptions option= new ChromeOptions();
+			option.addArguments("--headless");
+			driver=new ChromeDriver(option);
+			capabilities=((RemoteWebDriver)driver).getCapabilities();
+			BrowserName = capabilities.getBrowserName();
+			BrowserVersion = capabilities.getBrowserVersion();
 		}
-
 		driver.get(prop.getProperty("URL"));
-
 		BaseClass.implictwait(30);
 		Factory.initelements();
 		Dashboard= new Dashboardpage(driver);
-	
+		
 	}
 	/**
 	 * Close the Browser

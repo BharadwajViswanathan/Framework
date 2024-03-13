@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-28T14:12:13 IST" name="Suite" finished-at="2024-02-28T14:12:55 IST" duration-ms="41776">
+  <suite started-at="2024-02-28T15:55:42 IST" name="Suite" finished-at="2024-02-28T15:56:24 IST" duration-ms="41332">
     <groups>
     </groups>
-    <test started-at="2024-02-28T14:12:13 IST" name="Run on Chrome" finished-at="2024-02-28T14:12:31 IST" duration-ms="18027">
+    <test started-at="2024-02-28T15:55:42 IST" name="Run on Chrome" finished-at="2024-02-28T15:56:00 IST" duration-ms="17930">
       <class name="com.tests.Login">
-        <test-method is-config="true" signature="LaunchBrowser(java.lang.String)[pri:0, instance:com.tests.Login@31304f14]" started-at="2024-02-28T14:12:13 IST" name="LaunchBrowser" finished-at="2024-02-28T14:12:19 IST" duration-ms="6003" status="PASS">
+        <test-method is-config="true" signature="LaunchBrowser(java.lang.String)[pri:0, instance:com.tests.Login@1921ad94]" started-at="2024-02-28T15:55:42 IST" name="LaunchBrowser" finished-at="2024-02-28T15:55:49 IST" duration-ms="6280" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchBrowser -->
-        <test-method signature="verifyurlTC001()[pri:1, instance:com.tests.Login@31304f14]" started-at="2024-02-28T14:12:19 IST" name="verifyurlTC001" finished-at="2024-02-28T14:12:24 IST" duration-ms="4750" status="PASS">
+        <test-method signature="verifyurlTC001()[pri:1, instance:com.tests.Login@1921ad94]" started-at="2024-02-28T15:55:49 IST" name="verifyurlTC001" finished-at="2024-02-28T15:55:53 IST" duration-ms="4222" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyurlTC001 -->
-        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.tests.Login@31304f14]" started-at="2024-02-28T14:12:24 IST" name="CloseBrowser" finished-at="2024-02-28T14:12:24 IST" duration-ms="313" status="PASS">
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.tests.Login@1921ad94]" started-at="2024-02-28T15:55:53 IST" name="CloseBrowser" finished-at="2024-02-28T15:55:53 IST" duration-ms="290" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
-        <test-method is-config="true" signature="LaunchBrowser(java.lang.String)[pri:0, instance:com.tests.Login@31304f14]" started-at="2024-02-28T14:12:24 IST" name="LaunchBrowser" finished-at="2024-02-28T14:12:29 IST" duration-ms="4244" status="PASS">
+        <test-method is-config="true" signature="LaunchBrowser(java.lang.String)[pri:0, instance:com.tests.Login@1921ad94]" started-at="2024-02-28T15:55:53 IST" name="LaunchBrowser" finished-at="2024-02-28T15:55:58 IST" duration-ms="4403" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,23 +37,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchBrowser -->
-        <test-method signature="VerifytheerrormessageonloginpageTC002()[pri:2, instance:com.tests.Login@31304f14]" started-at="2024-02-28T14:12:29 IST" name="VerifytheerrormessageonloginpageTC002" finished-at="2024-02-28T14:12:31 IST" duration-ms="2129" status="PASS">
+        <test-method signature="VerifytheerrormessageonloginpageTC002()[pri:2, instance:com.tests.Login@1921ad94]" started-at="2024-02-28T15:55:58 IST" name="VerifytheerrormessageonloginpageTC002" finished-at="2024-02-28T15:56:00 IST" duration-ms="2137" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifytheerrormessageonloginpageTC002 -->
-        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.tests.Login@31304f14]" started-at="2024-02-28T14:12:31 IST" name="CloseBrowser" finished-at="2024-02-28T14:12:31 IST" duration-ms="242" status="PASS">
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.tests.Login@1921ad94]" started-at="2024-02-28T15:56:00 IST" name="CloseBrowser" finished-at="2024-02-28T15:56:00 IST" duration-ms="234" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
       </class> <!-- com.tests.Login -->
     </test> <!-- Run on Chrome -->
-    <test started-at="2024-02-28T14:12:31 IST" name="Run on firefox" finished-at="2024-02-28T14:12:55 IST" duration-ms="23706">
+    <test started-at="2024-02-28T15:56:00 IST" name="Run on firefox" finished-at="2024-02-28T15:56:24 IST" duration-ms="23368">
       <class name="com.tests.Login">
-        <test-method is-config="true" signature="BeforeLaunchingbrowser()[pri:0, instance:com.tests.Login@7c7a06ec]" started-at="2024-02-28T14:12:13 IST" name="BeforeLaunchingbrowser" finished-at="2024-02-28T14:12:13 IST" duration-ms="18" status="PASS">
+        <test-method is-config="true" signature="BeforeLaunchingbrowser()[pri:0, instance:com.tests.Login@25aca718]" started-at="2024-02-28T15:55:42 IST" name="BeforeLaunchingbrowser" finished-at="2024-02-28T15:55:42 IST" duration-ms="21" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeLaunchingbrowser -->
-        <test-method is-config="true" signature="LaunchBrowser(java.lang.String)[pri:0, instance:com.tests.Login@7c7a06ec]" started-at="2024-02-28T14:12:31 IST" name="LaunchBrowser" finished-at="2024-02-28T14:12:39 IST" duration-ms="8249" status="PASS">
+        <test-method is-config="true" signature="LaunchBrowser(java.lang.String)[pri:0, instance:com.tests.Login@25aca718]" started-at="2024-02-28T15:56:00 IST" name="LaunchBrowser" finished-at="2024-02-28T15:56:08 IST" duration-ms="7821" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -64,15 +64,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchBrowser -->
-        <test-method signature="verifyurlTC001()[pri:1, instance:com.tests.Login@7c7a06ec]" started-at="2024-02-28T14:12:39 IST" name="verifyurlTC001" finished-at="2024-02-28T14:12:44 IST" duration-ms="4283" status="PASS">
+        <test-method signature="verifyurlTC001()[pri:1, instance:com.tests.Login@25aca718]" started-at="2024-02-28T15:56:08 IST" name="verifyurlTC001" finished-at="2024-02-28T15:56:13 IST" duration-ms="4780" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyurlTC001 -->
-        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.tests.Login@7c7a06ec]" started-at="2024-02-28T14:12:44 IST" name="CloseBrowser" finished-at="2024-02-28T14:12:45 IST" duration-ms="1241" status="PASS">
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.tests.Login@25aca718]" started-at="2024-02-28T15:56:13 IST" name="CloseBrowser" finished-at="2024-02-28T15:56:14 IST" duration-ms="1194" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
-        <test-method is-config="true" signature="LaunchBrowser(java.lang.String)[pri:0, instance:com.tests.Login@7c7a06ec]" started-at="2024-02-28T14:12:45 IST" name="LaunchBrowser" finished-at="2024-02-28T14:12:51 IST" duration-ms="6410" status="PASS">
+        <test-method is-config="true" signature="LaunchBrowser(java.lang.String)[pri:0, instance:com.tests.Login@25aca718]" started-at="2024-02-28T15:56:14 IST" name="LaunchBrowser" finished-at="2024-02-28T15:56:20 IST" duration-ms="6314" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -83,11 +83,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchBrowser -->
-        <test-method signature="VerifytheerrormessageonloginpageTC002()[pri:2, instance:com.tests.Login@7c7a06ec]" started-at="2024-02-28T14:12:51 IST" name="VerifytheerrormessageonloginpageTC002" finished-at="2024-02-28T14:12:53 IST" duration-ms="2040" status="PASS">
+        <test-method signature="VerifytheerrormessageonloginpageTC002()[pri:2, instance:com.tests.Login@25aca718]" started-at="2024-02-28T15:56:20 IST" name="VerifytheerrormessageonloginpageTC002" finished-at="2024-02-28T15:56:23 IST" duration-ms="2060" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifytheerrormessageonloginpageTC002 -->
-        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.tests.Login@7c7a06ec]" started-at="2024-02-28T14:12:54 IST" name="CloseBrowser" finished-at="2024-02-28T14:12:55 IST" duration-ms="1332" status="PASS">
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.tests.Login@25aca718]" started-at="2024-02-28T15:56:23 IST" name="CloseBrowser" finished-at="2024-02-28T15:56:24 IST" duration-ms="1084" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
